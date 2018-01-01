@@ -1,0 +1,11 @@
+---
+- provider_name: DreamPirates
+  provider_url: http://www.dreampirates.in/
+  endpoints:
+  - url: http://www.dreampirates.in/xml.php
+  - url: http://www.dreampirates.in/json.php
+    discovery: true
+    example_urls:
+    - http://www.dreampirates.in/api/xml.php?url=http://www.dreampirates.in/images/wonder-woman-and-batman-cosplay
+    - http://www.dreampirates.in/api/json.php?url=http://www.dreampirates.in/images/wonder-woman-and-batman-cosplay
+...
